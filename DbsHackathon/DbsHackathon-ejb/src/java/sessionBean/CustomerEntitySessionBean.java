@@ -26,6 +26,8 @@ public class CustomerEntitySessionBean implements CustomerEntitySessionBeanLocal
         em.flush();
         return customerEntity;
     }
+    
+    
 
     public void persist(Object object) {
         em.persist(object);

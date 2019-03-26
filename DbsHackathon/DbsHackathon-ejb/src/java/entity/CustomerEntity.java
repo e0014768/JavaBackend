@@ -29,6 +29,8 @@ public class CustomerEntity implements Serializable {
     private String lastLogin;
     private String dateOfBirth;
     
+    
+    
 
     public CustomerEntity() {
         firstName="";
